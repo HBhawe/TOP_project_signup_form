@@ -1,0 +1,44 @@
+@font-face {
+    font-family: "Norse-Bold";
+    src: url("/repos/TOP_project_signup_form/fonts/Norse-Bold.otf") format("opentype");
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    font-family: "Norse-Bold",sans-serif;
+    background-color: black;
+}
+
+.container, .logo_name{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 100%;
+}
+
+#backdrop_image{
+    display: flex;
+    height: 70vh;
+}
+
+.logo_image{
+    width: 75px;
+}
+
+.title{
+    color: white;
+    font-size: 75px;
+    display: inline;
+}
+
+.left-panel{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.logo_name{
+    background-color: black;
+    justify-content: center;
+}
