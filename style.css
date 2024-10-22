@@ -7,14 +7,12 @@
 
 body{
     font-family: "Norse-Bold",sans-serif;
-    background-color: black;
 }
 
 .container, .logo_name{
     display: flex;
     align-items: center;
     position: absolute;
-    width: 100%;
 }
 
 #backdrop_image{
@@ -29,16 +27,12 @@ body{
 .title{
     color: white;
     font-size: 75px;
-    display: inline;
+    display: flex;
 }
 
 .left-panel{
-    display: flex;
+    display: inline-flex;
     justify-content: center;
     align-items: center;
-}
-
-.logo_name{
-    background-color: black;
-    justify-content: center;
+    width: 100%;
 }
