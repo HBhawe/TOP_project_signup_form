@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -9,16 +9,78 @@
   <body>
     <div class="container">
       <div class="left-panel">
+        <div id="backdrop_image">
+          <img src="./img/background_image.avif" alt="" />
+        </div>
         <div class="logo_name">
           <img src="./img/odin-lined.png" alt="" class="logo_image" />
           <h1 class="title">ODIN</h1>
         </div>
-        <div id="backdrop_image">
-          <img src="./img/background_image.avif" alt="" />
+      </div>
+      <div class="right-panel">
+        <div class="form-content">
+          <div class="form-text">
+            <h4>
+              This is not a real online service! You know you need something
+              like this in your life to help you realise your deepest dreams.
+            </h4>
+            <p>You <i>know</i> you want to</p>
+          </div>
+          <div id="form">
+            <form action="index.html">
+              <fieldset>
+                <legend>Let's do this!</legend>
+                <div class="input-row">
+                  <div class="form-group">
+                    <label for="firstName">FIRST NAME</label>
+                    <input type="text" name="firstName" id="firstName" />
+                  </div>
+                  <div class="form-group">
+                    <label for="lastName">LAST NAME</label>
+                    <input type="text" name="lastName" id="lastName" />
+                  </div>
+                </div>
+                <div class="input-row">
+                  <div class="form-group">
+                    <label for="email">EMAIL</label>
+                    <input type="email" name="email" id="email" />
+                  </div>
+                  <div class="form-group">
+                    <label for="phoneNumber">PHONE NUMBER</label>
+                    <input type="text" name="phoneNumber" id="phoneNumber" />
+                  </div>
+                </div>
+                <div class="input-row">
+                  <div class="form-group">
+                    <label for="password">PASSWORD</label>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      required
+                    />
+                  </div>
+                  <div class="form-group">
+                    <label for="password">CONFIRM PASSWORD</label>
+                    <input
+                      type="password"
+                      name="password"
+                      id="password"
+                      required
+                    />
+                  </div>
+                </div>
+              </fieldset>
+            </form>
+          </div>
+          <div id="submit-button">
+            <button id="submit" type="submit">Create Account</button>
+            <div id="account-creation">
+              <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+          </div>
         </div>
       </div>
-      <div class="form-content"></div>
-      <p>skghfkgjhkdfghdkfghdfkgh</p>
     </div>
   </body>
   <script src="script.js"></script>
