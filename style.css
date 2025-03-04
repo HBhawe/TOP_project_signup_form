@@ -39,6 +39,8 @@ div {
 #backdrop_image {
   display: flex;
   height: 70vh;
+  background-size: auto 100%;
+  justify-content: center;
 }
 
 .logo_image {
@@ -55,14 +57,13 @@ div {
   display: flex;
   justify-content: center;
   align-items: center;
-  width: 30%;
 }
 
 .right-panel {
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  width: 70%;
+  padding: 0 0 0 10px;
 }
 
 .logo_name {
